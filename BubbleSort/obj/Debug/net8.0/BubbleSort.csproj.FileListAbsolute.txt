@@ -12,3 +12,4 @@ C:\Users\Israel Fridless\Desktop\Kodcode 2\C#\BubbleSort\BubbleSort\obj\Debug\ne
 C:\Users\Israel Fridless\Desktop\Kodcode 2\C#\BubbleSort\BubbleSort\obj\Debug\net8.0\BubbleSort.pdb
 C:\Users\Israel Fridless\Desktop\Kodcode 2\C#\BubbleSort\BubbleSort\obj\Debug\net8.0\BubbleSort.genruntimeconfig.cache
 C:\Users\Israel Fridless\Desktop\Kodcode 2\C#\BubbleSort\BubbleSort\obj\Debug\net8.0\ref\BubbleSort.dll
+C:\Users\Israel Fridless\Desktop\Kodcode 2\C#\BubbleSort\BubbleSort\obj\Debug\net8.0\BubbleSort.sourcelink.json
