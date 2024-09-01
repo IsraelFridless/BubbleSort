@@ -1,0 +1,27 @@
+﻿namespace BubbleSort
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(string.Join(", ", BubbleSort([5, 8, 2, 4, 1, 0, 10])));
+        }
+
+        public static int[] BubbleSort(int[] nums)
+        {
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = 0; j < nums.Length -1; j++)
+                {
+                    if (nums[i] < nums[j])
+                    {
+                        int temp = nums[i];
+                        nums[i] = nums[j];
+                        nums[j] = temp;
+                    }
+                }
+            }
+            return nums;
+        }
+    }
+}
