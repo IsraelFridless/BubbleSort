@@ -9,15 +9,21 @@
 
         public static int[] SelectionSort(int[] nums)
         {
-            for (int i = 0; i < nums.Length; i++)
+            for (int i = 0; i < nums.Length - 1; i++)
             {
-                for (int j = 0; j < nums.Length - 1; j++)
+                int minIndex = i;
+
+                for (int j = i + 1; j < nums.Length; j++)
                 {
-                    if (nums[i] < nums[j])
+                    if (nums[j] < nums[minIndex])
                     {
-                        int temp = nums[i]; nums[i] = nums[j]; nums[j] = temp;
+                        minIndex = j;
                     }
                 }
+
+                int temp = nums[minIndex];
+                nums[minIndex] = nums[i];
+                nums[i] = temp;
             }
             return nums;
         }
